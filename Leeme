@@ -1,0 +1,60 @@
+Primero se debe instalar el git y acceder desde el cmd que trae el programa
+para comenzar con la configuración. 
+Esta configuración es muy importa cuando se tiene varias versiones del
+software o se traza el mismo para poder ser modificado en un futuro.
+
+Cuando se es programador se tienden a cometer errores luego de la producción
+y muchas veces la copia de seguridad que se tiene no es la más idonea. 
+Entonces por esso es muy importante poder realizar un branch para poder
+regresar a la versión funcional y corregir los errores que se cometieron
+en la siguiente versión.
+
+Se ingresa al git cmd
+y se ingresa al directorio raiz si se encuentra de esta forma
+c:\users\daniel
+se ingresa un cd..
+que sirve para poder regresar un espacio en el directorio
+c:\users
+para llegar al directorio principal se debe ingresar otro cd..
+c:\
+ahora se debe ingresar al directorio de git
+c:\cd git
+en el directorio git hay una carpeta que se llama master si no se tiene
+se puede crear y acceder a ella
+c:\GIT\Cd master
+
+**En esta carpeta se deben almacenar nuestros programas que deseamos 
+crearles um commit.
+En este caso utilizaremos el nombre de index.html para el ejemplo.
+
+Primero se crea un repositorio vacio y para ello tenemos el sub comando siguiente
+c:\GIT\master> git init
+Para saber el estado del servicio 
+c:\GIT\master> git status
+
+
+Luego de la inicialización y ver el status se procede a crear el commit
+para ello utilizamos los siguientes comandos
+c:\GIT\master> git add -A
+
+
+Si se desea documentar para saber quien realizo dicho commit se utilizan los
+siguientes comandos
+
+C:\GIT\master>git commit -m "Nueva version de index por Daniel Alecio"
+
+Si se desea saber en que momento fue realizado el commit se utilizan los 
+siguientes comandos
+C:\GIT\master>git log
+
+Si no se tiene conocimiento de los comandos se puede utilizar estos comandos
+para saber que comando utilizar en git
+
+C:\GIT\master>git revert -help
+
+
+Para saber la version de git
+
+C:\GIT\master>git version
+
+Esto es todo amigos espero les sea de utilidad. 
